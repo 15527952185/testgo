@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: cloud-basic-1-group-1-0
+  name: cloud-basic-1-group-1-4
   namespace: test001
   labels:
      name: test001-nginx
@@ -13,4 +13,5 @@ spec:
       ports:
       - name: http
         containerPort: 80
+
 ---
