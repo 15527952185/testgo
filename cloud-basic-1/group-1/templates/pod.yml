@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: cloud-basic-1-group-1-0
-  namespace: cloud-basic-1
+  namespace: test001
   labels:
      name: test001-nginx
 spec:
