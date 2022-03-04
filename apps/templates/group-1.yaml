@@ -2,14 +2,14 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: group-1
-  namespace: cloud-basic-1
+  namespace: test001
   finalizers:
   - resources-finalizer.argocd.argoproj.io
   annotations:
     argocd.argoproj.io/sync-wave: "-1"
 spec:
   destination:
-    namespace: cloud-basic-1
+    namespace: test001
     server: {{ .Values.spec.destination.server }}
   project: default
   source:
