@@ -2,3 +2,11 @@
   
   
   argocd cluster add gke_secret-tempest-323403_asia-east2-a_cost-optimized-cluster-3 --kubeconfig ./cluster/gcp3.config --name gcp3
+  
+  
+    10.177.41.148、10.177.106.113、 10.177.41.147、10.177.41.1478、10.177.41.149、10.177.41.150
+  
+  搭起来的这个argocd集群里，访问地址：10.177.11.102:8080，admin/4h7SSOxedPfMETtf
+  
+  
+  ssh -p 18822 root@123.60.54.188    密码=jw#D!W1$iC*q+vnThM
