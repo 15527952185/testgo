@@ -1,0 +1,4 @@
+  argocd cluster add --kubeconfig <新集群kubeconfig文件> --name <新集群名>
+  
+  
+  argocd cluster add gke_secret-tempest-323403_asia-east2-a_cost-optimized-cluster-3 --kubeconfig ./cluster/gcp3.config --name gcp3
